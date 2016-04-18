@@ -12,4 +12,13 @@ package Login;
 public class User {
     String userName;
     String password;
+
+    public User() {
+    }
+
+    public User(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
+    }
+    
 }
